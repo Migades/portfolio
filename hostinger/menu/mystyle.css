@@ -1,0 +1,99 @@
+html {
+    margin: 5px;
+}
+header {
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 80%;
+    color: #08fdd8;
+}
+
+body {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-family: 'Helvetica', Arial, sans-serif;
+    line-height: 1.5;
+    background: #1d1d1d;
+    background-size: 100%;
+    display: block;
+    min-width: 320px;
+    color: #08fdd8;
+    overflow-y: scroll;
+    overflow-x: hidden
+}
+
+hgroup {
+    text-align: center;
+}
+
+/* Menu de navegacion */
+nav {
+    margin-top: 2px;
+    font-size: 25px;
+    padding: 0;
+}
+
+ul {
+    padding: 25px;
+    list-style: none;
+    display: flex;
+}
+
+.menu {
+    flex-direction: row;
+    font-family: 'Helvetica', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    margin: 5px 5px 5px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+article {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+
+p {
+    font-size: 125%;
+}
+
+a {
+    color: aliceblue;
+    display: block;
+    font-size: 100%;
+    margin: 15px;
+}
+
+a:hover {
+    color: #08fdd8;
+}
+
+.subtitle {
+    font-size: 200%;
+    color: #08fdd8;
+    text-align: center;
+}
+
+.AP {
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    padding-left: 5px;
+    margin: 10px;
+}
+
+footer {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+}

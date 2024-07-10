@@ -1,0 +1,100 @@
+
+
+body {
+	text-align: center;
+	font-size: 16px;
+	margin: 10px 5%;
+	border-radius: 10px;
+	background-image: url("background.jpeg");
+	background-size: 50% 100%;
+	
+}
+
+p {
+	text-align: left;
+	color: white;
+	margin: 10px;
+}
+
+span {
+	font-weight: bold;
+	font-size: 1.1em;
+	color: black;
+
+}
+
+
+article {
+	margin: 20px 5%;
+	border: 1px solid #92a4b1;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px grey;
+	background-color: #1E2025;
+}
+
+
+h1 {
+	font-family: 'Gotham';
+	font-size: 4em;
+	color: #E50914;
+	text-shadow: 1px 1px 1px rgb(233, 187, 187);
+	border-radius: 20px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	margin-top: 20px;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+h2 {
+	border: black;
+	font-size: 2em;
+	color: black;
+	color: #92a4b1;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px black;
+}
+
+h3{
+	color: #92a4b1;
+}
+
+div {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #29343D;
+	border-radius: 10px;
+	border: 1px #92a4b1;
+
+}
+div:hover{
+	background-color: #3c5665;
+	color: tomato;
+}
+
+#poster {
+	width: 40%;
+	margin: 10px;
+}
+
+#ficha {
+	width: 50%;
+	margin: 10px;
+}
+
+#resumen {
+	width: 80%;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+p.sinopsis {
+	margin: 20px 30px;
+	font-size: 1.2em;
+	text-align: justify;
+}
+
+iframe {
+	margin: 10px;
+}
+

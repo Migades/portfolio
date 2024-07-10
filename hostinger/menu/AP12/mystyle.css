@@ -1,0 +1,106 @@
+/* Section */
+header {
+    display: block;
+    padding: 5%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 5px 1px 5px rgb(253, 252, 252);
+    background-color: tomato;
+    border-bottom: solid;
+}
+
+body {
+    /* font-family: 'Century'; */
+    font-family: FeijoaWeb-Mediumx,sans-serif;
+    margin: auto;
+    background-color: whitesmoke;
+    /* background: linear-gradient(to right, rgb(120, 240, 160), rgb(178, 206, 221)); */
+}
+
+article {
+    margin: 30px;
+    margin-bottom: 70px;
+    padding: 5px;
+    width: 35%;
+    border: solid;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.columns {
+    display: inline-block;
+    vertical-align: top;
+}
+
+input {
+    background-color: whitesmoke;
+    border-color: tomato;
+    display: flex;
+    margin: 2%;
+    text-align: left;
+    width: 90%;
+}
+
+#submit {
+    font-family: 'Times New Roman', Times, serif;
+    /*     padding: 5px; */
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2%;
+    float: right;
+}
+
+input:hover {
+    background-color: tomato;
+    color: white;
+    border-radius: 20px;
+    border-style: 0px;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+}
+
+.data {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2%;
+}
+
+.email {
+    font-family: 'Times New Roman', Times, serif;
+    /*     text-shadow: 5px 1px 5px tomato; */
+    text-align: justify;
+    margin: 2%;
+}
+
+/* Aside */
+
+aside{
+    margin: 30px;
+    margin-bottom: 70px;
+    padding: 5px;
+    width: 35%;
+    border: solid;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+a {
+	position: relative;
+	top:3%;
+	display: block;
+	margin:20px;
+	font-size: 2em;
+	color: #fc0d0d;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: #fc0d0d;
+}

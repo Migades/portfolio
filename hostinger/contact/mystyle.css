@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0b1721;
+
+}
+
+.form {
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Helvetica', Arial, sans-serif;
+    color: white;
+}
+
+.form h4 {
+    font-size: 6em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.form h4:hover {
+    color: #08fdd8;
+    font-size: 6em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 10px;
+    border: none;
+    margin-bottom: 16px;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.form p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form a {
+    color: white;
+    text-decoration: none;
+}
+
+.form a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form .button {
+    width: 100%;
+    border: none;
+    background: none;
+    color: white;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 30px;
+}
+
+.form .button:hover {
+    border: none;
+    background-color: #0b1721;
+    color: #08fdd8;
+    font-size: 30px;
+
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    font-family: 'Helvetica', Arial, sans-serif;
+    text-align: justify;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin-bottom: 16px;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    color: black;
+    display: block;
+    resize: none;
+}

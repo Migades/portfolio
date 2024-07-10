@@ -1,0 +1,132 @@
+html {
+    margin: 5px;
+    font-size: 50%;
+}
+
+h2 {
+    display: flexbox;
+    text-align: center;
+    font-family: 'Helvetica', Arial, sans-serif;
+    color: #08fdd8;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 15rem
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Helvetica', Arial, sans-serif;
+    color: white;
+    font-weight: 200;
+    position: relative;
+    font-size: 6rem;
+    line-height: 12rem
+}
+
+/* Menu de navegacion */
+nav {
+    margin-top: 2px;
+    font-size: 25px;
+    padding: 0;
+}
+
+ul {
+    padding: 50px;
+    list-style: none;
+    display: flex;
+}
+
+.menu {
+    flex-direction: row;
+    font-family: 'Helvetica', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.menu a {
+    color: white;
+    margin: 5px 5px 5px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #08fdd8;
+}
+
+
+body {
+    font-size: 10px;
+    font-family: 'Helvetica', Arial, sans-serif;
+    line-height: 1.5;
+    background: #1d1d1d;
+    min-width: 320px;
+}
+
+span {
+    color: #08fdd8;
+}
+
+em {
+    color: #08fdd8;
+}
+
+p {
+    color: aliceblue;
+    margin: 50px;
+    font-size: 3em;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+/* Parte de data.html */
+.data {
+    flex: 1;
+    margin-left: 10px;
+    padding: 1%;
+}
+
+.data a {
+    flex: auto;
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.data img {
+    max-width: 100%;
+}
+
+
+.curriculum {
+    font-family: 'Helvetica', Arial, sans-serif;
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 15px;
+    color: whitesmoke;
+    box-sizing: border-box;
+    text-decoration: none;
+
+
+}
+
+.curriculum:hover {
+    color: #08fdd8;
+}
+
+iframe{
+    width: 100%;
+    height: 400px;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-left: 80%;
+}

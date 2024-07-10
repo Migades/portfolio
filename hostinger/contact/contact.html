@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact me</title>
+</head>
+
+<body>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about/about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="/menu/menu.html">Projects</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--     <section class="form">
+        <h4>Contact Form</h4>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Enter your name">
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Enter your email">
+        <textarea name="mensaje" for="mensaje" placeholder="Enter your message here" maxlength="300"></textarea>
+        <input class="button" type="submit" value="Send">
+    </section> -->
+    <form>
+        <h1>to: Me</h1>
+
+        <div id="from">
+            <label for="name">from:</label>
+            <input type="text" id="name" name="user_name" placeholder="Enter your name">
+        </div>
+
+        <div id="reply">
+            <label for="mail">reply:</label>
+            <input type="email" id="mail" name="user_email" placeholder="Enter your email">
+        </div>
+
+        <div id="message">
+            <label for="msg">Your message:</label>
+            <textarea id="msg" name="user_message" placeholder="Enter your message here"></textarea>
+        </div>
+
+        <div class="button">
+            <button type="submit" formaction="contacto.php">Send your message</button>
+        </div>
+    </form>
+    <!-- i. Formulario rellenable por la persona que desee establecer contacto contigo y que le
+permita indicar como mínimo su nombre, e-mail y el mensaje de texto que desea enviarte.
+Cuando se pulse el botón de envío deberá realizarlo a una página ficticia denominada
+“contacto.php”. -->
+</body>
+
+</html>
